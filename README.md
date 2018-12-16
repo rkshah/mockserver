@@ -7,10 +7,11 @@ Install Terraform : <br />
    `brew install terraform`
    
 **Steps:** <br />
-    - Create a new project in gcloud
-    - Replace the project id in main.tf file with your project id
-    - Create a service account for the project and download the json file. (https://cloud.google.com/iam/docs/creating-managing-service-accounts)
-    - rename the service account file file 'service_account_credential.json' and save it in Project directory.
+    - Create a new project in gcloud <br />
+    - Replace the project id in main.tf file with your project id <br />
+    - Create a service account for the project and download the json file. (https://cloud.google
+    .com/iam/docs/creating-managing-service-accounts) <br />
+    - rename the service account file file 'service_account_credential.json' and save it in Project directory. <br />
     
 **Enable AppEngine** <br />
     https://console.developers.google.com/apis/api/appengine.googleapis.com/overview?project={PROJECT_ID}
