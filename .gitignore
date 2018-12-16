@@ -1,0 +1,4 @@
+.idea/
+.terraform/
+service_account_credential.json
+terraform_plan

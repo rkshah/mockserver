@@ -1,0 +1,27 @@
+{
+  "name": "mockserver_gcloud",
+  "version": "1.0.0",
+  "description": "create mockserver in gcloud using terraform",
+  "main": "app.js",
+  "author": "Rakesh Shah",
+  "license": "MIT",
+
+  "scripts" : {
+    "tfinit" : "terraform init",
+    "start" : "node app.js",
+    "verify" : "terraform plan -out terraform_plan",
+    "deploy" : "terraform apply terraform_plan",
+    "appDeploy" : "gcloud app deploy",
+    "postdeploy": "rm -rf terraform_plan"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mockserver" : "^2.2.0",
+    "google-auth-library": "^2.0.1",
+    "is-retry-allowed": "^1.1.0",
+    "nested-error-stacks": "^2.1.0",
+    "yarn": "^1.12.1"
+  }
+}
