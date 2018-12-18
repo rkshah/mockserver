@@ -8,7 +8,7 @@ Install Terraform : <br />
    
 **Steps:** <br />
     - Create a new project in gcloud <br />
-    - Replace the project id in main.tf file with your project id <br />
+    - Replace the project id, region and location in package.json file under config <br />
     - Create a service account for the project and download the json file. (https://cloud.google.com/iam/docs/creating-managing-service-accounts) <br />
     - rename the service account file file 'service_account_credential.json' and save it in Project directory. <br />
     
