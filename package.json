@@ -5,10 +5,16 @@
   "main": "app.js",
   "author": "Rakesh Shah",
   "license": "MIT",
+  "config" : {
+    "provider_projectId" : "mockserver-225605",
+    "provider_region" : "us-central1",
+    "project_location" : "us-central"
+  },
 
   "scripts" : {
     "tfinit" : "terraform init",
     "start" : "node app.js",
+    "test" : "DEBUG=true npm test",
     "verify" : "terraform plan -out terraform_plan",
     "deploy" : "terraform apply terraform_plan",
     "appDeploy" : "gcloud app deploy",

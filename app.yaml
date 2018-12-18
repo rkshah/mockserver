@@ -1,3 +1,4 @@
 # [START gae_quickstart_yaml]
 runtime: nodejs8
+service: mockserver2
 # [END gae_quickstart_yaml]

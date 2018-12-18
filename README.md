@@ -22,5 +22,9 @@ Install Terraform : <br />
     `yarn appDeploy` <br />
     
 **Verify** <br />
-    https://{PROJECT_ID}.appspot.com/helloJSON <br />
-    https://{PROJECT_ID}.appspot.com/helloXML
+    https://{PROJECT_ID}.appspot.com/ <br />
+
+**References** <br />
+    - https://www.npmjs.com/package/mockserver <br />
+    - https://cloud.google.com/nodejs/getting-started/hello-world <br />
+    

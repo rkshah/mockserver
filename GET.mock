@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+
+<html>
+<h1>Mock Server</h1>
+
+<body>
+
+   <strong> json </strong> :: Click here for <a href="/mocks/helloJSON"> JSON example </a><br/>
+   <strong> xml </strong> :: Click here for <a href="/mocks/helloXML"> XML example </a> <br/>
+   <strong> queryParam </strong> :: Click here for <a href="/mocks/helloQueryParam?param1=value1&param2=value2"> Query Params example</a><br/>
+   <strong> importData </strong> :: Click here for <a href="/mocks/importData"> Import json data from a file </a> <br/>
+   <strong> importScript </strong> :: Click here for <a href="/mocks/importScript"> import a javascript </a> <br/>
+
+</body>
+</html>
