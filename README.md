@@ -18,9 +18,10 @@ Install Terraform : <br />
 **Deploy** <br />
     `yarn tfinit` <br />
     `yarn verify` <br />
-    `yarn deploy` <br />
- **Deploy on Gcloud**
-    `yarn verify`
+    `yarn deploy` <br /> <br />
+    
+ **Deploy on Gcloud** <br />
+    `yarn verify`<br />
     `yarn appDeploy` <br />
     
 **Verify** <br />
